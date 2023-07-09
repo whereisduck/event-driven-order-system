@@ -1,21 +1,22 @@
 ## Reactive microservice-based order management system
 
-The project represents a collection of reactive backend services for placing an order through online webstore.
+Create an event driven microservices with Kafka is the main goal.
 
 ![Architecture Diagram](/architecture.png)
 
 
-When create order request is sent to Order Service, a number of microservices are ready to kick start upon receiving the corresponding events.
-In the preceding diagram, there are six microservices shown:
-- Order Service creates and updates orders.
-- Warehouse Service reserves/releases stock for orders and creates shipment records.
+- Database using MongoDB.
+- Eureka for service discovery.
+- Micrometer and Zipkin for logging and services tracking.
+- Business logic:
+- Order Service creates when receive an order request, and updates order satus during order processing.
+- Warehouse Service reserves/releases stock(if order rejected or pending for too long) for orders and creates shipment records.
 - Finance Service processes payments and creates invoices.
 - Catalogue Service contains product-related information (i.e. products, details, prices)
 - Notification Service sends notifications to customers informing them about different order stages
-- Customer Service contains customer-related information (i.e. name, contact infromation)
+- Customer Service contains customer-related information (i.e. name, contact information)
+- Each service is decoupled, communicates by receiving and generating events.
 
-Each service is responsible for only one function and functions based on receiving and generatings events. 
-Each service is independent and is not aware of its neighborhoods.
 
 ## Technologies
 
@@ -24,5 +25,6 @@ Each service is independent and is not aware of its neighborhoods.
 - Spring Reactive Mongo
 - MongoDB
 - Kafka
-- Zookeeper
+- Zipkin
+- Eureka
 - Docker
