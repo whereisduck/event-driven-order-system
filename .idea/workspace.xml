@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="286e261e-aa34-422f-8597-45654cb1ba6a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/duck/ordersystem/catalogservice/CatalogueServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/duck/ordersystem/catalogservice/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/duck/ordersystem/catalogservice/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/duck/ordersystem/catalogservice/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/duck/ordersystem/catalogservice/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/duck/ordersystem/catalogservice/util/ApiErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/duck/ordersystem/catalogservice/util/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/duck/ordersystem/catalogservice/util/ItemNoFound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/duck/ordersystem/catalogservice/util/ServiceApiException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/duck/ordersystem/catalogservice/util/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/customerservice/CustomerServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/customerservice/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/customerservice/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/customerservice/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/customerservice/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/customerservice/util/ApiErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/customerservice/util/CustomerNoFound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/customerservice/util/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/customerservice/util/ServiceApiException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-service/src/main/java/com/duck/ordersystem/discoveryservice/DiscoveryServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-service/src/main/java/com/duck/ordersystem/financeservice/FinanceServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-service/src/main/java/com/duck/ordersystem/financeservice/client/NotificationServiceClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-service/src/main/java/com/duck/ordersystem/financeservice/client/OrderServiceClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-service/src/main/java/com/duck/ordersystem/financeservice/client/event/OrderCancellationEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-service/src/main/java/com/duck/ordersystem/financeservice/client/event/PaymentRejectEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-service/src/main/java/com/duck/ordersystem/financeservice/client/event/PaymentSuccessEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-service/src/main/java/com/duck/ordersystem/financeservice/listener/OrderEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-service/src/main/java/com/duck/ordersystem/financeservice/listener/event/OrderPaymentEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-service/src/main/java/com/duck/ordersystem/financeservice/model/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-service/src/main/java/com/duck/ordersystem/financeservice/model/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-service/src/main/java/com/duck/ordersystem/financeservice/model/InvoiceLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-service/src/main/java/com/duck/ordersystem/financeservice/model/ItemLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-service/src/main/java/com/duck/ordersystem/financeservice/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-service/src/main/java/com/duck/ordersystem/financeservice/model/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-service/src/main/java/com/duck/ordersystem/financeservice/model/PaymentDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-service/src/main/java/com/duck/ordersystem/financeservice/model/ProductItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-service/src/main/java/com/duck/ordersystem/financeservice/repository/InvoiceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-service/src/main/java/com/duck/ordersystem/financeservice/service/InvoiceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-service/src/main/java/com/duck/ordersystem/financeservice/service/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-service/src/main/java/com/duck/ordersystem/financeservice/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-service/src/main/java/com/duck/ordersystem/financeservice/util/ApiErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-service/src/main/java/com/duck/ordersystem/financeservice/util/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-service/src/main/java/com/duck/ordersystem/financeservice/util/OrderNoFound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-service/src/main/java/com/duck/ordersystem/financeservice/util/PaymentProcessingError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-service/src/main/java/com/duck/ordersystem/financeservice/util/ServiceApiException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-service/src/main/java/com/duck/ordersystem/financeservice/util/kafka/KafkaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-service/src/main/java/com/duck/ordersystem/financeservice/util/webClient/WebClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-service/src/test/java/com/duck/ordersystem/financeservice/client/CatalogServiceClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-service/src/test/java/com/duck/ordersystem/financeservice/client/InvoiceBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-service/src/test/java/com/duck/ordersystem/financeservice/client/NotificationServiceClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/duck/ordersystem/orderservice/OrderServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/duck/ordersystem/orderservice/client/FinanceClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/duck/ordersystem/orderservice/client/WarehouseClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/duck/ordersystem/orderservice/client/event/OrderDispatchEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/duck/ordersystem/orderservice/client/event/OrderPaymentEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/duck/ordersystem/orderservice/client/event/OrderPlacedStockCheckedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/duck/ordersystem/orderservice/client/event/OrderStockReleaseEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/duck/ordersystem/orderservice/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/duck/ordersystem/orderservice/dto/CreateOrderRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/duck/ordersystem/orderservice/dto/CreateOrderResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/duck/ordersystem/orderservice/listener/StockEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/duck/ordersystem/orderservice/listener/event/PaymentRejectEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/duck/ordersystem/orderservice/listener/event/PaymentSuccessEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/duck/ordersystem/orderservice/listener/event/StockConfirmEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/duck/ordersystem/orderservice/listener/event/StockRejectEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/duck/ordersystem/orderservice/model/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/duck/ordersystem/orderservice/model/ItemLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/duck/ordersystem/orderservice/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/duck/ordersystem/orderservice/model/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/duck/ordersystem/orderservice/model/PaymentDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/duck/ordersystem/orderservice/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/duck/ordersystem/orderservice/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/duck/ordersystem/orderservice/util/ApiErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/duck/ordersystem/orderservice/util/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/duck/ordersystem/orderservice/util/OrderNoFound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/duck/ordersystem/orderservice/util/ServiceApiException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/duck/ordersystem/orderservice/util/kafka/KafkaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/test/java/com/duck/ordersystem/orderservice/OrderRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/test/java/com/duck/ordersystem/orderservice/OrderServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/test/java/com/duck/ordersystem/orderservice/controller/OrderControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/test/java/com/duck/ordersystem/orderservice/domain/CreateOrderRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/test/java/com/duck/ordersystem/orderservice/domain/OrderBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/test/java/com/duck/ordersystem/orderservice/listener/StockEventListenerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/warehouse-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/warehouse-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/warehouse-service/src/main/java/com/duck/ordersystem/warehouseservice/WarehouseServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/warehouse-service/src/main/java/com/duck/ordersystem/warehouseservice/client/OrderServiceClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/warehouse-service/src/main/java/com/duck/ordersystem/warehouseservice/client/event/StockConfirmEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/warehouse-service/src/main/java/com/duck/ordersystem/warehouseservice/client/event/StockRejectEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/warehouse-service/src/main/java/com/duck/ordersystem/warehouseservice/controller/WarehouseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/warehouse-service/src/main/java/com/duck/ordersystem/warehouseservice/listener/OrderEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/warehouse-service/src/main/java/com/duck/ordersystem/warehouseservice/listener/event/OrderDispatchEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/warehouse-service/src/main/java/com/duck/ordersystem/warehouseservice/listener/event/OrderPlacedStockCheckedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/warehouse-service/src/main/java/com/duck/ordersystem/warehouseservice/listener/event/OrderStockReleaseEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/warehouse-service/src/main/java/com/duck/ordersystem/warehouseservice/model/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/warehouse-service/src/main/java/com/duck/ordersystem/warehouseservice/model/ItemLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/warehouse-service/src/main/java/com/duck/ordersystem/warehouseservice/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/warehouse-service/src/main/java/com/duck/ordersystem/warehouseservice/model/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/warehouse-service/src/main/java/com/duck/ordersystem/warehouseservice/model/PaymentDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/warehouse-service/src/main/java/com/duck/ordersystem/warehouseservice/model/Shipment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/warehouse-service/src/main/java/com/duck/ordersystem/warehouseservice/model/Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/warehouse-service/src/main/java/com/duck/ordersystem/warehouseservice/repository/ShipmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/warehouse-service/src/main/java/com/duck/ordersystem/warehouseservice/repository/StockRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/warehouse-service/src/main/java/com/duck/ordersystem/warehouseservice/service/ShipmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/warehouse-service/src/main/java/com/duck/ordersystem/warehouseservice/service/StockService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/warehouse-service/src/main/java/com/duck/ordersystem/warehouseservice/util/ApiErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/warehouse-service/src/main/java/com/duck/ordersystem/warehouseservice/util/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/warehouse-service/src/main/java/com/duck/ordersystem/warehouseservice/util/ItemNoFound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/warehouse-service/src/main/java/com/duck/ordersystem/warehouseservice/util/ItemNotInStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/warehouse-service/src/main/java/com/duck/ordersystem/warehouseservice/util/ServiceApiException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/warehouse-service/src/main/java/com/duck/ordersystem/warehouseservice/util/kafka/KafkaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/warehouse-service/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2Qvrvfpg4m1nnbIXATyLNIS1PaS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "openjdk-20",
+    "last_opened_file_path": "C:/Users/kenzh/IdeaProjects/order-system/finance-service/src/test/java/com/duck/ordersystem/financeservice/client",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.duck.ordersystem.financeservice.client" />
+      <recent name="com.duck.ordersystem.financeservice.model" />
+      <recent name="orderservice.client" />
+      <recent name="orderservice.model" />
+      <recent name="com.duck.ordersystem.catalogservice.util" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kenzh\IdeaProjects\order-system\finance-service\src\test\java\com\duck\ordersystem\financeservice\client" />
+      <recent name="C:\Users\kenzh\IdeaProjects\order-system\order-service\src\test\java\com\duck\ordersystem\orderservice" />
+      <recent name="C:\Users\kenzh\IdeaProjects\order-system\warehouse-service\src\main\java\com\duck\ordersystem\warehouseservice\model" />
+      <recent name="C:\Users\kenzh\IdeaProjects\order-system\finance-service\src\main\java\com\duck\ordersystem\financeservice\service" />
+      <recent name="C:\Users\kenzh\IdeaProjects\order-system\finance-service\src\main\java\com\duck\ordersystem\financeservice\client\event" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.duck.ordersystem.orderservice.listener" />
+      <recent name="com.duck.ordersystem.orderservice" />
+      <recent name="com.duck.ordersystem.financeservice.client" />
+      <recent name="com.duck.ordersystem.financeservice.listener" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.duck.ordersystem.orderservice.domain" />
+      <recent name="com.duck.ordersystem.warehouseservice.repository" />
+      <recent name="com.duck.ordersystem.warehouseservice.listener.event" />
+      <recent name="com.duck.ordersystem.financeservice.util.webClient" />
+      <recent name="com.duck.ordersystem.financeservice.model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.OrderControllerTest.createWhenValidationError">
+    <configuration name="NotificationServiceClientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="finance-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.duck.ordersystem.financeservice.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.duck.ordersystem.financeservice.client" />
+      <option name="MAIN_CLASS_NAME" value="com.duck.ordersystem.financeservice.client.NotificationServiceClientTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotificationServiceClientTest.sendOrderCancellationEventTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="finance-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.duck.ordersystem.financeservice.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.duck.ordersystem.financeservice.client" />
+      <option name="MAIN_CLASS_NAME" value="com.duck.ordersystem.financeservice.client.NotificationServiceClientTest" />
+      <option name="METHOD_NAME" value="sendOrderCancellationEventTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotificationServiceClientTest.sendPaymentSuccessEventTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="finance-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.duck.ordersystem.financeservice.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.duck.ordersystem.financeservice.client" />
+      <option name="MAIN_CLASS_NAME" value="com.duck.ordersystem.financeservice.client.NotificationServiceClientTest" />
+      <option name="METHOD_NAME" value="sendPaymentSuccessEventTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderControllerTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="order-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.duck.ordersystem.orderservice.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.duck.ordersystem.orderservice.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.duck.ordersystem.orderservice.controller.OrderControllerTest" />
+      <option name="METHOD_NAME" value="create" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderControllerTest.createWhenValidationError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="order-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.duck.ordersystem.orderservice.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.duck.ordersystem.orderservice.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.duck.ordersystem.orderservice.controller.OrderControllerTest" />
+      <option name="METHOD_NAME" value="createWhenValidationError" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.NotificationServiceClientTest" />
+      <item itemvalue="JUnit.NotificationServiceClientTest.sendOrderCancellationEventTest" />
+      <item itemvalue="JUnit.NotificationServiceClientTest.sendPaymentSuccessEventTest" />
+      <item itemvalue="JUnit.OrderControllerTest.create" />
+      <item itemvalue="JUnit.OrderControllerTest.createWhenValidationError" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.OrderControllerTest.createWhenValidationError" />
+        <item itemvalue="JUnit.OrderControllerTest.create" />
+        <item itemvalue="JUnit.NotificationServiceClientTest.sendOrderCancellationEventTest" />
+        <item itemvalue="JUnit.NotificationServiceClientTest.sendPaymentSuccessEventTest" />
+        <item itemvalue="JUnit.NotificationServiceClientTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="286e261e-aa34-422f-8597-45654cb1ba6a" name="Changes" comment="" />
+      <created>1686245130325</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686245130325</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
